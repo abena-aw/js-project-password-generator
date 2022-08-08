@@ -35,6 +35,7 @@ function getPassword(){
             // It would be a decimal so Math.floor runs the result to the nearest whole number less than it(result)
             // Finally accessing the character at that percentile with charAt()
             // The whole function can be written just using the code in the main else block
+            // Can use regex for everything
             password+= letterValue;
         }   
     }console.log(password)
